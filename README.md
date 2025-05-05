@@ -114,9 +114,9 @@ These next two maps shows the storm surge under the same scenario of higher sea 
 These maps show a storm surge of approximately ten feet in the areas directly behind the levee. The differences in these maps between a future without a levee and a future with, show that the levees do significantly reduce the harm from storm surge. However, ten feet of flooding is still incredibly dangerous and could cause extreme damage. These maps display that if there is large predicted population growth in the areas behind the levee, there will be increased damages as this population will not be fully protected from catastrophic storm surge by 2055.
 
 
-![boxen plot high SLR](Figures/pop_by_inun_change_high_boxen.png)
+![boxen plot high SLR](Figures/pop_by_inun_change_high_boxen_.png)
 
-![scatter plot high SLR](Figures/pop_by_inun_change_high_scatter.png)
+![scatter plot high SLR](Figures/pop_by_inun_change_high_scatter_.png)
 
 This boxen plot and scatter plot shows the relationship between population change and inundation change between 2035-2055 under a high sea level rise scenario. There is a general trend of decreasing population as inundation gets worse. However, there is a strange pattern shown when a block group goes from not flooded to 100% flooded. There are several instances here of increased population. Upon further inspection, this appears to be partially driven by block groups that have very small actual changes in population (such as from 13 people to 14 people), but that show up as large percentage change. This finding led to the decision to move ahead with logged population numbers rather than population change as a ratio in the regression.
 
