@@ -55,11 +55,6 @@ ax1.set_ylabel('Population Change')
 fig.tight_layout()
 fig.savefig("../Figures/pop_by_inun_change_low_scatter.png")
 
-# Removes observations where population change is 0
-inun_pop_high=inun_pop_high[inun_pop_high["flood_change"]!=0]
-inun_pop_low=inun_pop_low[inun_pop_low["flood_change"]!=0]
 
-# Creates scatter plots with best fit lines
-sns.lmplot(x='flood_change', y='pop_change', order=2, data=inun_pop_high)
-fig.tight_layout()
+
 
